@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dra. Juliana</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <!-- Título -->
+    <h1 class="title">Dra. Juliana</h1>
+    
+    <!-- Menu de navegação -->
+    <nav class="navbar">
+  <div class="hamburger" id="hamburger-menu">
+    <span class="bar top-bar"></span>
+    <span class="bar middle-bar"></span>
+    <span class="bar bottom-bar"></span>
+  </div>
+  <ul id="nav-list">
+    <li><a href="#introducao">Horarios de Atendimentos</a></li>
+    <li><a href="#historia">História sobre mim</a></li>
+    <li><a href="#origem">Origem</a></li>
+    <li><a href="#tecnologia">Tecnologia</a></li>
+  </ul>
+</nav>
+    
+    <!-- Carrossel de imagens -->
+    <div class="carousel">
+        <div class="carousel-item active">
+            <img src="https://studiogorga.com.br/wp-content/uploads/2022/02/dra-sissi-gorga-2-722x1024.png" alt="Dra. Sissi Gorga" />
+        </div>
+        <div class="carousel-item">
+            <img src="https://s3-sa-east-1.amazonaws.com/doctoralia.com.br/doctor/e540db/e540db6611c206baefe0f8fa68322734_large.jpg" alt="Imagem de Dra. XXXX" />
+        </div>
+        <div class="carousel-item">
+            <img src="https://www.marianapovoa.com.br/images/dra-mariana-povoa.jpg" alt="Dra. Mariana Póvoa" />
+        </div>
+        <button class="prev">&#10094;</button>
+        <button class="next">&#10095;</button>
+    </div>
+
+    <!-- Seção de Introdução -->
+    <section id="introducao">
+        <h4 class="p">Horarios</h4>
+        <p class="pp">Horario de Atendimento <br> <br> Segunda a Sexta<br> <br>10:00 às 18:00.<br><br> aos Sabados <br> <br> 10:00 às 14:00 🦷 </p>
+    </section>
+
+    <!-- Seção de História -->
+    <section id="historia">
+        <h4 class="p">Quando surgiu a Odontologia</h4>
+        <p class="pp">A história da Odontologia remonta há milhares de anos. Diversas evidências arqueológicas...</p>
+    </section>
+    
+    <!-- Seção de Redes Sociais -->
+    <section class="social-media">
+        <h4>Redes Sociais</h4>
+        
+        <!-- Botão do Instagram -->
+        <a href="https://www.instagram.com/agodontologiamaissorriso?igsh=bjNzeHgxOGJjbTFj" target="_blank">
+            <button class="social-btn instagram-btn">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1024px-Instagram_logo_2022.svg.png" alt="Instagram" />
+                Instagram
+            </button>
+        </a>
+
+        <!-- Botão do Facebook -->
+        <a href="https://www.facebook.com" target="_blank">
+            <button class="social-btn facebook-btn">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1024px-Facebook_f_logo_%282019%29.svg.png" alt="Facebook" />
+                Facebook
+            </button>
+        </a>
+
+        <!-- Botão do WhatsApp -->
+        <a href="https://wa.me/5511990110340" target="_blank">
+            <button class="social-btn whatsapp-btn">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />
+                WhatsApp
+            </button>
+        </a>
+    </section>
+
+    <!-- Seção do mapa -->
+    <div class="map-container">
+        <iframe src="https://www.google.com/maps/embed?pb=..." frameborder="0" style="border:0" allowfullscreen aria-label="Localização da Dra.XXXXXXX"></iframe>
+    </div>
+
+    <!-- Exibição da hora atual -->
+    <p id="currentTime"></p>
+    
+    <script src="script.js"></script>
+</body>
+</html>
