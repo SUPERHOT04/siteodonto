@@ -3,38 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dra. Juliana</title>
-    <link rel="stylesheet" href="styles.css" />
+    <title>AG odontologia</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!-- Título -->
-    <h1 class="title">Dra. Juliana</h1>
+    <div class="image-container">
+        <h1 class="title"><img src="imagens/WhatsApp Image 2025-05-19 at 11.52.51.jpeg" alt=""><div class="text-overlay"></div></h1>
+    </div>
     
     <!-- Menu de navegação -->
     <nav class="navbar">
-  <div class="hamburger" id="hamburger-menu">
-    <span class="bar top-bar"></span>
-    <span class="bar middle-bar"></span>
-    <span class="bar bottom-bar"></span>
-  </div>
-  <ul id="nav-list">
-    <li><a href="#introducao">Horarios de Atendimentos</a></li>
-    <li><a href="#historia">História sobre mim</a></li>
-    <li><a href="#origem">Origem</a></li>
-    <li><a href="#tecnologia">Tecnologia</a></li>
-  </ul>
-</nav>
+    <div class="hamburger" id="hamburger-menu">
+        <span class="bar top-bar"></span>
+        <span class="bar middle-bar"></span>
+        <span class="bar bottom-bar"></span>
+    </div>
+    <ul id="nav-list">
+        <li><a href="#introducao">Horarios de Atendimentos</a></li>
+        <li><a href="#consultorio">Conheça mais</a></li>
+        <li><a href="#origem">Origem</a></li>
+        <li><a href="#tecnologia">Tecnologia</a></li>
+    </ul>
+    </nav>
     
     <!-- Carrossel de imagens -->
     <div class="carousel">
         <div class="carousel-item active">
-            <img src="https://studiogorga.com.br/wp-content/uploads/2022/02/dra-sissi-gorga-2-722x1024.png" alt="Dra. Sissi Gorga" />
+            <img src="imagens/WhatsApp Image 2025-05-19 at 11.39.44.jpeg" alt="Dra. Sissi Gorga" />
         </div>
         <div class="carousel-item">
-            <img src="https://s3-sa-east-1.amazonaws.com/doctoralia.com.br/doctor/e540db/e540db6611c206baefe0f8fa68322734_large.jpg" alt="Imagem de Dra. XXXX" />
+            <img src="imagens/WhatsApp Image 2025-05-19 at 11.39.42.jpeg" alt="Imagem de Dra. XXXX" />
         </div>
         <div class="carousel-item">
-            <img src="https://www.marianapovoa.com.br/images/dra-mariana-povoa.jpg" alt="Dra. Mariana Póvoa" />
+            <img src="imagens/Sorriso.jpeg" alt="Dra. Mariana Póvoa" />
         </div>
         <button class="prev">&#10094;</button>
         <button class="next">&#10095;</button>
@@ -42,48 +44,52 @@
 
     <!-- Seção de Introdução -->
     <section id="introducao">
-        <h4 class="p">Horarios</h4>
-        <p class="pp">Horario de Atendimento <br> <br> Segunda a Sexta<br> <br>10:00 às 18:00.<br><br> aos Sabados <br> <br> 10:00 às 14:00 🦷 </p>
+        <div class="horarios">
+            <h4 class="p">Horarios</h4>
+            <p class="pp">Horario de Atendimento <br> <br> Segunda a Sexta<br> <br>10:00 às 18:00.<br><br> aos Sabados <br> <br> 10:00 às 14:00 🦷 </p>
+        </div>
     </section>
 
     <!-- Seção de História -->
-    <section id="historia">
-        <h4 class="p">Quando surgiu a Odontologia</h4>
-        <p class="pp">A história da Odontologia remonta há milhares de anos. Diversas evidências arqueológicas...</p>
+    <section id="Consultório">
+        <h4 class="p"><img src="imagens/Dentistas.jpeg" alt="">Sobre nós</h4>
+        <p class="pp">A AG Odontologia é um consultório dedicado à excelência no cuidado com a saúde bucal. Comandado pelas doutoras Andreza A. e Gilvania M. O espaço oferece um atendimento humanizado, aliado à tecnologia e às boas práticas da odontologia moderna. Com carinho, profissionalismo e atenção aos detalhes, a dupla cuida do sorriso dos pacientes, promovendo bem-estar, autoestima e qualidade de vida. Na AG Odontologia, seu sorriso está em boas mãos.</p>
     </section>
     
     <!-- Seção de Redes Sociais -->
-    <section class="social-media">
-        <h4>Redes Sociais</h4>
+    <h4>Redes Sociais</h4>
+    <div class="redes-sociais">
+        <section class="social-media">
         
-        <!-- Botão do Instagram -->
-        <a href="https://www.instagram.com/agodontologiamaissorriso?igsh=bjNzeHgxOGJjbTFj" target="_blank">
+            <!-- Botão do Instagram -->
+            <a href="https://www.instagram.com/agodontologiamaissorriso?igsh=bjNzeHgxOGJjbTFj" target="_blank">
             <button class="social-btn instagram-btn">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1024px-Instagram_logo_2022.svg.png" alt="Instagram" />
                 Instagram
             </button>
-        </a>
+            </a>
 
-        <!-- Botão do Facebook -->
-        <a href="https://www.facebook.com" target="_blank">
-            <button class="social-btn facebook-btn">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1024px-Facebook_f_logo_%282019%29.svg.png" alt="Facebook" />
+            <!-- Botão do Facebook -->
+            <a href="https://www.facebook.com" target="_blank">
+                <button class="social-btn facebook-btn">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1024px-Facebook_f_logo_%282019%29.svg.png" alt="Facebook" />
                 Facebook
-            </button>
-        </a>
+                </button>
+            </a>
 
-        <!-- Botão do WhatsApp -->
-        <a href="https://wa.me/5511990110340" target="_blank">
-            <button class="social-btn whatsapp-btn">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />
+            <!-- Botão do WhatsApp -->
+            <a href="https://wa.me/5511990110340" target="_blank">
+                <button class="social-btn whatsapp-btn">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />
                 WhatsApp
-            </button>
-        </a>
-    </section>
+                </button>
+            </a>
+        </section>
+    </div>
 
     <!-- Seção do mapa -->
     <div class="map-container">
-        <iframe src="https://www.google.com/maps/embed?pb=..." frameborder="0" style="border:0" allowfullscreen aria-label="Localização da Dra.XXXXXXX"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d271.8138588710747!2d-46.41571301456687!3d-23.565685305296466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce65c9accb01d7%3A0x5743507fb44d5c51!2sAG%20odontologia!5e0!3m2!1spt-BR!2sbr!4v1747666024243!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 
     <!-- Exibição da hora atual -->
